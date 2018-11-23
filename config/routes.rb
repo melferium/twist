@@ -3,6 +3,7 @@ Twist::Application.routes.draw do
 
   root to: "home#index"
 
+  
   notes_routes = lambda do
     collection do
       get :completed

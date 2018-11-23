@@ -1,5 +1,17 @@
 # Twist 
 
+Practive project created base on Ryan Biggs book "Multitenancy with Rails"
+
+## Version used
+* WSL Ubuntu 18.04.1 LTS
+* RVM 1.29.4
+* Ruby 2.5.3
+* Rails 5.2.1
+* PostgreSQL 10
+
+
+
+
 Twist provides an easy book-reviewing platform for authors using the LeanPub Markdown format. Twist will update your book *as soon as you push it to GitHub*. It's super easy!
 
 ![Preview](https://raw.githubusercontent.com/radar/twist/master/doc/preview-new.png)
