@@ -1,7 +1,7 @@
 Twist::Application.routes.draw do
   devise_for :users
 
-  root to: "books#index"
+  root to: "home#index"
 
   notes_routes = lambda do
     collection do
