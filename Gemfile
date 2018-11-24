@@ -2,23 +2,23 @@ source 'http://rubygems.org'
 
 ruby '2.5.3'
 
-gem 'rails', '~> 5.0'
+gem 'rails', '5.2.1'
 gem 'pg'
 
-gem 'devise', '4.1.1'
-gem 'sidekiq', '4.1.2'
+gem 'devise', '4.5.0'
+gem 'sidekiq', '5.2.3'
 gem 'redcarpet'
 gem 'nokogiri'
 gem 'paperclip'
 gem 'pygments.rb'
 
-gem 'redis-activesupport', '5.0.1'
+gem 'redis-activesupport'
 
 group :development, :test do
   gem 'pry-rails'
   gem 'factory_girl'
   gem 'capybara', '~> 2.0'
-  gem 'rspec-rails', '~> 3.5.0'
+  gem 'rspec-rails', '~> 3.8'
   gem 'launchy'
   gem 'database_cleaner'
   gem 'email_spec'
@@ -38,7 +38,7 @@ gem "unicorn"
 gem 'sass-rails', "~> 5.0.6"
 gem 'coffee-script'
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'simple_form', '3.2.1'
+gem 'simple_form', '4.1.0'
 
 gem 'jquery-rails'
 gem 'pry'
